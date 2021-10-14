@@ -1,0 +1,210 @@
+/********* accueil ***************/
+
+.nav-gauche {
+
+    width: 20%;
+    /* font-size: 1rem; */
+
+}
+
+.cercle-logo img {
+
+    width: 72%;
+}
+
+.cercle-logo {
+
+    left: 1%;
+}
+
+.btn-rond-menu {
+
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 5%;
+    height: 3vh;
+}
+
+.cont-ligne {
+    width: 70%;
+    height: 1vh;
+}
+
+.blocs-menu span {
+
+    /* font-size: 75%; */
+    left: 1%;
+margin-top: -10%;
+    font-weight: 700;
+
+}
+
+/* .accueil h1 {
+
+    /* font-size: 270%; */
+    /* top: 12%;
+    left: 25%; */
+} */
+
+.txt-animation {
+
+    /* font-size: 150%; */
+    top: 21%;
+    left: 25%;
+}
+
+/* .vide {
+    margin-top: -128%;
+} */
+
+/* .logoCbl {
+    left: 71%;
+    top: 15%
+} */
+
+.btn-rond {
+    margin-top: -110%;
+    margin-left: -4%;
+}
+
+/***************** presentation ****************/
+
+.histoire {
+    /* margin-top: -132%;
+    font-size: 80%; */
+}
+
+/********* section transport ***********/
+
+.titre2port {
+
+    /* font-size: 120%; */
+}
+
+.carousel img {
+
+    /* margin-top: 55%; */
+    /* margin-left: 42%; */
+}
+
+.carousel .photo1 {
+    margin-top: 55%;
+}
+
+/* ************** Stocages ********************* */
+
+.titre-stockage-exp {
+    margin-left: -11%;
+}
+
+.flex-cont-bloc-exp {
+
+    margin-left: 3%;
+    
+}
+
+#exp h2 {
+
+    margin-left: -16%;
+
+}
+
+.contenu-bloc {
+   
+    height: 25vh;
+}
+
+/* ************ eco *****************/
+.section-parallax2 {
+
+    width: 150%;
+    height: 30vh;
+    margin-left: -8%;
+    margin-top: 30%;
+}
+
+.titre-para1 {
+
+    padding-top: 4%;
+
+}
+
+.eco{
+    /* background-size:205% ;
+    background-position-y:31%; */
+
+}
+
+.engage .eng {
+
+    margin-top: -3%;
+    margin-left: -8%;
+}
+
+
+.engage .colza {
+
+    margin-left: 22%;
+}
+
+.ecolo {
+
+    margin-left: -9%;
+
+}
+
+.item-ecolo {
+    height: 58%;
+}
+
+.ecolo p {
+    /* font-size: 1rem; */
+    padding-top: 11%;
+}
+.cont-img-eco .trois {
+margin-left: 3%;}
+
+/* .section-parallax3 {
+    margin-top: -30%; */
+
+/* } */
+/* .par3 {
+    background-position-x:  -0.5rem;
+} */
+
+/*********** contact ****************/
+
+#conta {
+    /* margin-top: -20%;
+    height: 70vh;
+    margin-left: 1%; */
+}
+
+
+.gmaps-frame {
+width: 70%;
+    height: 30vh;
+}
+
+.btn-end {
+height: 2vh;
+    margin-left: -4%;
+    margin-top: -3%;
+}
+
+.form-groupe1 {
+    margin-left: 55%;
+}
+textarea {
+
+height: 20vh;
+
+}
+ 
+
+footer {
+    
+    text-align: center;
+    align-items: center;
+    padding-left: 2%;
+}

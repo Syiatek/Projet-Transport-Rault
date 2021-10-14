@@ -1,0 +1,46 @@
+
+section{
+
+    width: 100%;
+}
+/* ********accueil********* */
+
+
+
+
+.accueil h1 {
+    top: 23%;
+    left: 25%;
+}
+.logoCbl {
+    left: 78%;
+    top: 23%
+} 
+
+ .txt-animation {
+    top: 30%;
+    left: 24%;
+} 
+
+
+/* ........section presentation...... */
+
+.histoire {
+    margin-top: -95%;
+}
+
+/* ***********écologie*********** */
+
+.eco{
+     background-size:255% ;
+    background-position-y:81%; 
+
+}
+
+.eco p {
+    padding-top: 11%;
+   font-size: 1.2vw; 
+}
+
+
+

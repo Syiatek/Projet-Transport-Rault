@@ -1,0 +1,916 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    animation: scroll 70s linear infinite;
+    cursor: url(ressources/SansRaulticon-3.png), auto;
+    z-index: -6;
+    overflow-x: hidden;
+    font-family: "Abril Fatface", sans-serif;
+    background: url(ressources/iconRault-10.png);
+    background-position-x: -10em;
+}
+
+@keyframes scroll {
+    100% {
+        background-position: 0px -3000px;
+    }
+}
+.blocs-menu span:hover::after,
+.blocs-menu a:hover,
+button:hover,
+.btn-end:hover,
+.btn-rond:hover,
+label:hover {
+    cursor: url(ressources/SansRaulticon-3.png), auto border;
+}
+
+
+/* menu */
+.nav-gauche {
+
+    width: 200px;
+    height: 100vh;
+    min-height: 800px;
+    background-image: linear-gradient(217deg, rgb(55, 149, 160)80%, rgb(175, 233, 134));
+    position: fixed;
+    top: 0;
+    left: -300px;
+    box-shadow: 0 0 8px 8px rgb(55, 149, 160);
+    z-index: 5;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.blocs-menu {
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.blocs-menu span {
+
+    font-size: 1vw;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+   
+}
+
+.blocs-menu span a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+
+.blocs-menu span::after {
+
+    content: "";
+    display: block;
+    width: 0px;
+    margin: -11px auto 0 auto;
+    height: 2px;
+    border-radius: 2px;
+    background: #f1f1f1;
+    transition: all 0.2s ease-out;
+
+}
+
+
+.blocs-menu span:hover::after {
+
+    width: 100%;
+}
+
+/* logo */
+
+.blocs-menu:nth-child(1) {
+    /* modifi accueil */
+    width: 100%;
+    height: 25%;
+   
+}
+
+.cercle-logo {
+    margin: 20px 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    bottom: 40px;
+    position: relative;
+    opacity: 0.43;
+}
+
+.cercle-logo img {
+
+    width: 150px;
+    height: 100px;
+    box-shadow: 26px 26px 53px rgb(175, 233, 134),
+        -26px -26px 53px rgb(175, 233, 134);
+    position: absolute;
+    border-radius: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ............accueil......... */
+
+.accueil {
+
+    position: relative;
+
+}
+
+.accueil h1 {
+    font-size: 6vw;
+    position: absolute;
+    text-shadow: 0.1em 0.1em #f1f1f1;
+    background: -webkit-radial-gradient(rgb(55, 149, 160)80%, rgb(175, 233, 134));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Abril Fatface", sans-serif;
+    left: 27%;
+    top: 25%;
+}
+
+.txt-animation {
+
+    font-size: 3vw;
+    position: absolute;
+    top: 36%;
+    left: 29%;
+    color: rgb(238, 245, 240)
+}
+.accueil{
+
+    width: 100%;
+    height: 250vh;
+}
+
+.vide{
+
+    width: 100%;
+}
+
+.logoCbl {
+
+    width: 15%;
+    position: absolute;
+    top: 28%;
+    left: 80%;
+    box-shadow: 0 0 8px 8px white;
+    border-radius: 20%
+}
+
+
+.btn-rond {
+
+    background: -webkit-radial-gradient(rgb(55, 149, 160)50%, rgb(175, 233, 134));
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #333;
+    animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 2px #f1f1f1;
+    }
+}
+
+.btn-rond img {
+    width: 40%;
+
+}
+
+/* ........section presentation...... */
+.presentation {
+
+    color: rgb(55, 149, 160);
+    background-image: url(ressources/fontRault.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+.histoire {
+    margin-top: -76%;
+}
+
+.titre-pres {
+
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 8%;
+    margin-left: 15%;
+    color: rgb(55, 149, 160);
+    -webkit-text-stroke: 0.03em #fff;
+
+}
+
+.container-pres {
+
+    width: 100%;
+    min-height: 24vw;
+    margin-left: 1%;
+    overflow: hidden;
+    margin-top: 3%;
+
+}
+
+
+.container-pres p {
+
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    margin-left: 15%;
+    padding-bottom: -2%;
+}
+
+/* parallax */
+
+.section-parallax {
+
+    width: 100%;
+    height: 450px;
+    background: url(ressources/transportsrault3.jpg)no-repeat right/ cover fixed;
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: 10%;
+    box-shadow: 0 -3px 8px 3px white inset;
+}
+
+/* section transport */
+
+.titre-port {
+
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 5%;
+    margin-left: 10%;
+    -webkit-text-stroke: 2px rgb(55, 149, 160);
+    color: #f1f1f1;
+}
+
+.titre2port {
+
+    font-size: 2vw;
+    margin: 3.5% 0 0 26%;
+    color: rgb(55, 149, 160);
+}
+
+.cont-transport {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-height: 20vh;
+    padding-left: 15%;
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+#transp{
+    margin-right: -5%;
+}
+
+
+.carousel img {
+    margin-top: 17%;
+    border-radius: 10%;
+    margin-left: 0%;
+
+}
+
+.carousel {
+    border-radius: 10%;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    height: 50%;
+    width: 95%;
+}
+
+.carousel .photo {
+    margin-top: 27%;
+    height: 50%;
+}
+
+.carousel .photo1 {
+    margin-top: 22%;
+
+}
+
+.cam h3 {
+
+    margin-left: -1%;
+}
+
+.cam {
+
+    font-size: 100%;
+    color: rgb(55, 149, 160);
+    margin-top: 12%;
+    margin-left: 0%;
+}
+
+.cam1 {
+    padding-top: 7%;
+    margin-top: -8%;
+}
+
+.chariot {
+
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 10%;
+    border-radius: 5%;
+
+}
+
+.cont-img-port {
+    width: 100%;
+    height: 35vh;
+    max-height: 40vh;
+    overflow: hidden;
+    border-radius: 5%;
+
+}
+
+.cont-img-port img {
+    object-fit: scale-down;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 5%;
+}
+
+#transp {
+
+    margin-left: -5%;
+
+
+}
+
+.item {
+
+    left: 11%;
+    margin: 1%;
+    width: 30%;
+    height: 57vh;
+    border-radius: 5%;
+    background: #f0f2f0;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(248, 240, 166);
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 10px rgb(55, 149, 160);
+}
+
+.item:hover {
+
+    transform: translateY(-5px);
+}
+
+.item h3 {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 2vw;
+    color: rgb(55, 149, 160);
+}
+
+.item p {
+
+    text-align: center;
+    color: rgb(55, 149, 160);
+}
+
+.section-parallax1 {
+    background-color: #333;
+    background: url(ressources/1629716498077.jpg) no-repeat right;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    box-shadow: 0 0 8px 8px white inset;
+    padding: 2% 0 30% 65%;
+
+}
+
+/* section stocKage */
+
+#exp {
+    width: 100%;
+    color: rgb(55, 149, 160);
+    height: 60vw;
+    margin-top: 162;
+
+}
+
+#exp h2 {
+
+    -webkit-text-stroke: 2px rgb(55, 149, 160);
+    color: #f1f1f1;
+    font-size: 4em;
+    padding-left: 43%;
+    margin-bottom: 32%;
+}
+
+.flex-cont-bloc-exp {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12%;
+    margin-top: -80%;
+    width: 88%;
+    height: 100vh;
+    padding-top: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloc {
+
+    margin: 1%;
+    margin-left: 3%;
+    width: 34%;
+    border: 1px solid rgb(55, 149, 160);
+    border-radius: 5%;
+    transition: transform 0.3s ease-out;
+    background: rgb(55, 149, 160);
+
+}
+
+.contenu-bloc {
+
+    width: 100%;
+    height: 19vw;
+    border-radius: 6% 14.6% 5% 5%;
+    overflow: hidden;
+    background: rgb(248, 240, 166);
+    transition: transform 0.25s ease-in-out;
+    transform: translate(10px, -10px);
+
+}
+
+.contenu-bloc img {
+
+    width: 80%;
+    height: 50%;
+    margin-left: 9%;
+
+}
+
+.txt-section {
+
+    font-size: 1.3em;
+    font-family: "Abril Fatface", sans-serif;
+    text-align: center;
+    margin-top: -2%;
+
+}
+
+.contenu-bloc:hover {
+
+    transform: translate(0, 0);
+}
+
+.titre-section-bloc {
+
+    font-family: "Abril fatface", sans-serif;
+    font-size: 1.4em;
+    padding: 4% 3%;
+}
+
+/********** Ecologie *********** */
+
+/* parallax2 */
+
+.eco {
+    
+    background-image: url(ressources/fontRault.jpg);
+    height: 490vh;
+    background-repeat: no-repeat;
+    background-size:222% ;
+    background-position-y:70%;
+
+    overflow: hidden;
+}
+
+.section-parallax2 {
+    margin-top: -14%;
+    width: 150%;
+    height: 60vh;
+    background: url(ressources/1621062309375.jpg) no-repeat right / cover fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+.section-parallax2 h1{
+
+    text-align: center;
+    margin-left: -25%;
+    margin-top: 11%;
+    -webkit-text-stroke: 2px rgb(55, 149, 160);
+    color: #f1f1f1;
+    font-size: 4vw;
+
+}
+
+.engage {
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.engage .colza {
+
+    margin-top: 2%;
+    margin-left: 30%;
+    height: 28vw;
+    border-radius: 85%;
+}
+
+.engage .eng {
+
+    width: 50%;
+    -webkit-text-stroke: 2px rgb(55, 149, 160);
+    color: #f1f1f1;
+    font-size: 2.5vw;
+    text-align: center;
+    left: 30%;
+    position: absolute;
+    top: -5%;
+
+}
+
+.ecolo {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 218vh;
+    max-height: 218vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.item-ecolo {
+
+    width: 30%;
+    left: 7%;
+    margin: 2%;
+    height: 105vh;
+    border-radius: 3%;
+    overflow: hidden;
+    background: rgb(248, 240, 166);
+    transition: transform 0.3s ease-out;
+    position: relative;
+    box-shadow: 0 0 10px rgb(55, 149, 160);
+}
+
+.item-ecolo:hover {
+
+    transform: translateY(-5px);
+
+}
+
+.eco h3 {
+    font-size: 2vw;
+    color: rgb(55, 149, 160);
+    text-align: center;
+    padding-top: -12%;
+
+}
+
+.eco p {
+
+    line-height: 1.5;
+    font-size: 1vw;
+    font-family: "Abril fatface", sans-serif;
+    color: rgb(55, 149, 160);
+    text-align: center;
+    padding-top: 11%;
+
+}
+
+.cont-img-eco img {
+    padding-top: 8%;
+    width: 100%;
+    height: auto;
+}
+
+.cont-img-eco1 img {
+
+    position: absolute;
+    width: 100%;
+    top: 56%;
+    min-height: 17vh;
+    border-radius: 5%;
+}
+
+.cont-img-eco .deux {
+    position: absolute;
+    width: 100%;
+    min-height: 17vh;
+    margin-top: -50%;
+    border-radius: 5%;
+}
+
+.cont-img-eco .trois {
+    position: absolute;
+    width: 100%;
+    top: 66%;
+    min-height: 17vh;
+    border-radius: 5%;
+
+}
+
+.pre {
+
+    color: rgb(55, 149, 160);
+    font-family: "Abril fatface", sans-serif;
+    text-align: center;
+
+    margin-top: 55%;
+
+}
+
+/* parallax3 */
+.section-parallax3 {
+
+    width: 150%;
+    height: 195vh;
+    margin-left: -2%;
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.par1 {
+    box-shadow: 0 0 8px 8px white inset;
+    width: 100%;
+    height: 60vh;
+    background: url(ressources/1629716353253.jpg) no-repeat right / cover fixed;
+    background-position-x: 1rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.par3 {
+    box-shadow: 0 0 8px 8px white inset;
+    width: 100%;
+    height: 55vh;
+    background: url(ressources/camionBretsETE.jpg) no-repeat right / cover fixed;
+    background-attachment: fixed;
+    background-position-x: 5rem;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/* section contact */
+.section-contact {
+    background-image: url(ressources/transpnouvrault.jpg);
+    background-attachment: fixed;
+    background-position: 55%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+    width: 100%;
+    height: 118vh;
+    margin-top: -9%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.coor {
+
+    background: #f1f1f1;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.03em #fff;
+    font-size: 1.7vw;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+
+.section-contact h2 {
+
+    background: #f1f1f1;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.03em #fff;
+    font-size: 1.7vw;
+
+    padding: 20% 0 0 25%;
+}
+
+.container-form {
+
+    width: 30%;
+
+    margin-left: 2%;
+    padding-right: -29%;
+
+
+
+}
+
+.form-groupe {
+
+    position: relative;
+    padding-left: 25%;
+    margin: 3%;
+
+}
+
+.form-groupe label {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1vw;
+    transition: 0, 4s ease-out;
+}
+
+.form-groupe input {
+
+    display: block;
+    width: 100%;
+    padding: 1% 0%;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    transform: 0.4 ease-out;
+    font-size: 1vw;
+}
+
+textarea {
+
+    width: 100%;
+    height: 35vh;
+    border: none;
+    border: 3px solid #aaa;
+    border-radius: 3px;
+    padding: 3%;
+    resize: none;
+    outline: none;
+    font-size: 1.5vw;
+    transition: 0.4 all ease-out;
+    background: #f1f1f1;
+}
+
+textarea::placeholder {
+
+    font-size: 1.5vw;
+    opacity: 0.5;
+}
+
+textarea:focus {
+
+    border-color: rgb(55, 149, 160);
+}
+
+.form-groupe:nth-child(4) {
+
+    margin-bottom: 5%;
+    justify-content: flex-start;
+}
+
+.form-groupe1 .button-sub {
+
+    display: block;
+    margin-left: 23%;
+    width: auto;
+    padding: 1% 3%;
+    border: 3px solid rgb(55, 149, 160);
+    border-radius: 999px;
+    background: -webkit-radial-gradient(rgb(55, 149, 160)50%, rgb(175, 233, 134));
+    background-size: 200%;
+    color: #f1f1f1;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.form-groupe .button-sub:hover {
+
+    color: #f1f1f1;
+    background-position: 100%;
+    border: 0.1em solid #fff;
+}
+
+.gmaps-frame {
+    width: 100%;
+    height: 60vh;
+    border: 0;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto;
+    max-width: 100%;
+    display: block;
+
+
+}
+
+.btn-end {
+
+    background: -webkit-radial-gradient(rgb(55, 149, 160)50%, rgb(175, 233, 134));
+    width: 2.5%;
+    height: 4.5%;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #333;
+    animation: pulse 1.3s infinite;
+    z-index: 100;
+}
+
+.btn-end img {
+    width: 46%;
+    transform: rotate(0.5turn);
+    ;
+}
+
+/* Animation contact */
+
+.form-groupe:focus-within label,
+.form-groupe.animation label {
+    top: 0;
+    transform: translateY(-100%);
+    background: -webkit-radial-gradient(rgb(55, 149, 160)50%, rgb(175, 233, 134));
+    border-radius: 50%;
+    padding: 1%;
+
+}
+
+/* footer */
+footer {
+    background: -webkit-radial-gradient(rgb(55, 149, 160)50%, rgb(175, 233, 134));
+   color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 10%;
+}
