@@ -1,0 +1,234 @@
+
+
+/********* accueil ***************/
+
+.nav-gauche {
+
+    width: 20%;
+
+}
+
+.btn-rond-menu {
+
+    width: 4%;
+    height: 4vh;
+}
+
+
+
+.blocs-menu span {
+
+    font-size: 1.6vw;
+    left: 1%;
+    margin-top: -10%;
+    font-weight: 700;
+
+}
+
+main{
+    overflow-x: hidden;
+    margin-right: -2.2%;
+}
+/* ............accueil......... */
+
+.accueil h1 {
+
+    font-size: 5.4vw;
+    top: 12%;
+    left: 25%;
+}
+
+.txt-animation {
+    top: 17%;
+    left: 24%;
+}
+
+.logoCbl {
+    left: 78%;
+    top: 13%
+}
+
+.btn-rond {
+    margin-top: -110%;
+    margin-left: -4%;
+}
+
+/* ........section presentation...... */
+
+.presentation {
+    background-size: 120%;
+    
+}
+
+.histoire {
+    margin-top: -215%;
+
+}
+
+.titre-pres {
+
+    margin-left: -2%;
+
+}
+.container-pres {
+    margin-left: -7%;
+}
+
+/********* section transport ***********/
+
+
+.titre2port {
+
+    margin-left: -2%;
+}
+
+.carousel {
+
+    height: 15vh;
+
+} .carousel .photo {
+
+    margin-top: 74%;
+   
+    height: 15vh;
+}
+.carousel .photo2 {
+    
+    margin-top: 68%;
+    
+}
+
+.carousel .photo1 {
+    margin-top: 68%;
+   
+}
+.cam {
+
+    margin-top: 66%;
+}
+
+.item {
+
+    height: 35vh;
+
+}
+
+.item h3 {
+    text-align: center;
+    margin-top: -63%;
+    font-size: 2vw;
+}
+
+
+/* section stocKage */
+
+.titre-stockage-exp {
+    margin-left: -15%;
+}
+#exp {
+
+    height: 80vh;
+    margin-top: 162;
+
+}
+
+.contenu-bloc {
+
+    height: 25vh;
+}
+
+.flex-cont-bloc-exp {
+
+    margin-top: -73%;
+
+}
+
+/* ************ eco *****************/
+
+.eco {
+    height: 280vh;
+    background-size: 320%;
+    background-position-y: 5%;
+    
+}
+
+.section-parallax2 {
+
+    width: 150%;
+    height: 30vh;
+    margin-left: -8%;
+
+}
+
+.titre-para1 {
+
+    padding-top: 4%;
+    padding-left: 15%;
+
+}
+
+.engage .eng {
+    margin-top: -3%;
+    font-size: 3vw;
+}
+
+.item-ecolo {
+    height: 58vh;
+}
+
+.ecolo {
+
+    margin-left: -7%;
+    height: 93vh;
+
+}
+
+.ecolo p {
+    font-size: 1.4vw;
+    padding-top: 12%;
+}
+
+.section-parallax3 {
+
+    margin-top: 1%;
+   
+}
+
+.par3 {
+    
+    width: 100%;
+    height: 65vh;
+    
+}
+
+/*********** contact ****************/
+
+#conta {
+    
+    height: 103vh;
+   
+}
+.coor {
+    font-size: 2.7vh;
+}
+.section-contact h2 {
+    font-size: 2.7vh;
+}
+
+.form-groupe label {
+    font-size: 2vh;
+
+}
+
+.btn-end {
+
+    height: 2.5vh;
+    
+}
+
+footer {
+
+    text-align: center;
+    align-items: center;
+    padding-left: 2%;
+}

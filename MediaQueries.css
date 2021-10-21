@@ -63,8 +63,8 @@
 
     .ligne-unique {
         width: 100%;
-        height: 4px;
-        border-radius: 5px;
+        height: 0.5vh;
+        border-radius: 5%;
         background: #f1f1f1;
         position: absolute;
         top: 50%;
@@ -76,21 +76,21 @@
     .ligne-unique::before {
         content: '';
         position: absolute;
-        bottom: 10px;
+        bottom: 280%;
         background: #f1f1f1;
         width: 100%;
-        height: 4px;
-        border-radius: 5px;
+        height: 0.5vh;
+        border-radius: 5%;
     }
 
     .ligne-unique::after {
         content: '';
         position: absolute;
-        top: 10px;
+        top: 280%;
         background: #f1f1f1;
         width: 100%;
-        height: 4px;
-        border-radius: 5px;
+        height: 0.5vh;
+        border-radius: 5%;
     }
 
     .cont-ligne.active .ligne-unique::after {
@@ -113,31 +113,15 @@
 
     /* ********accueil********* */
 
-
-    .logoCbl {
-        left: 78%;
-        top: 25%
-    } 
-
-    .accueil h1 {
-        top: 25%;
-        left: 25%;
-    }
-
     .txt-animation {
         top: 32%;
         left: 15%;
     }
 
-    .btn-rond {
-        margin-top: -55%;
-        margin-left: -15%;
-    }
-
     /* ........section presentation...... */
 
     .histoire {
-        margin-top: -88%;
+        margin-top: -105%;
     }
 
     .titre-pres {
@@ -147,7 +131,7 @@
     }
 
     .container-pres {
-        margin-left: -5%;
+        margin-left: -8%;
     }
 
 
@@ -166,8 +150,23 @@
 
     .titre2port {
 
-         margin-left: -2%;
-        text-align: center; 
+        margin-left: -2%;
+        text-align: center;
+    }
+
+    .carousel .photo {
+        margin-top: 26%;
+
+    }
+
+    .carousel .photo2 {
+        margin-top: 35%;
+
+    }
+
+    .carousel .photo1 {
+        margin-top: 28%;
+
     }
 
     /**********stockage********* */
@@ -188,11 +187,12 @@
 
     }
 
-    .eco{
-        background-size:255% ;
-       background-position-y:81%; 
-   
-   }
+    .eco {
+        background-size: 275%;
+        background-position-y: 81%;
+
+    }
+
     .engage .colza {
 
         margin-left: 25%;
@@ -209,11 +209,13 @@
 
     .par3 {
         background-position-x: 0.1em;
-    } 
+    }
+
     .eco p {
         padding-top: 11%;
-       font-size: 1.2vw; 
+        font-size: 1.3vw;
     }
+
     /*********** contact ****************/
 
     .container-form {
@@ -221,661 +223,683 @@
         margin-left: -10%;
     }
 
-   
+    .form-groupe label {
+        font-size: 2vh;
 
-@media screen and (max-width: 1100px) {
-
-
-    .logoCbl {
-        left: 78%;
-        top: 25%
-    } 
-
-    .accueil h1 {
-        top: 25%;
-        left: 25%;
-    }
-
-    .txt-animation {
-        top: 32%;
-        left: 15%;
-    }
-
-    .btn-rond {
-        margin-top: 0%;
-        margin-left: -5%;
-    }
-
- /* ........section presentation...... */
-
-
-    .histoire {
-        margin-top: -98%;
-    }
-
-   /* ***********écologie*********** */
-
-
-   .eco{
-    background-size:268% ;
-   background-position-y:81%; 
-
-}
-.eco p {
-    padding-top: 14%;
-   font-size: 1.3vw; 
-}
-
- @media screen and (max-width:700px) { */
-
-     .btn-rond-menu {
-
-        width: 6%;
-        height: 6%;
-       
-    }
-
-    
-    .cercle-logo {
-
-        bottom: -10px;
-    }
-
-    .nav-gauche {
-       
-        width: 20%;
-
-    }
- 
-
-    /* ********accueil ************ */
-
-    
-    .accueil h1 {
-        top: 25%;
-        left: 20%;
-    }
-    
-    .txt-animation {
-        top: 32%;
-        left: 15%;
-    }
-
-    .logoCbl {
-        margin-top: 6%;
-        margin-left: 0%;
-    }  
-
-    /************ presentation ************ */
-    
-    .histoire {
-
-        margin-top: -155%;
-
-
-    }
-
-    /********* section transport ***********/
-
-    
-
-    .titre2port {
-
-        font-size: 2vw;
-        margin-left: 5%;
-    }
-
-    /* .carousel img {
-
-        margin-top: 55%;
-        margin-left: 1%;
-    } */
-
-    /* .carousel .photo {
-        margin-top: 28%;
-
-    }
-
-    .carousel .photo1 {
-        margin-top: 55%;
-    } */ */
-
-
-    /* ************** Stocages ********************* */
-
-    /* #exp h2 {
-
-        font-size: 3rem;
-        margin-left: -13%;
-    }
-
-    #exp {
-
-        height: 75vh;
-
-    }
-
-    .contenu-bloc {
-        height: 30vh;
-    } */
-
-    /* ************ eco *****************/
-
-
-    /* .titre-para1 {
-
-        margin-left: -27%;
-
-    }
-
-    .engage .eng {
-        font-size: 1.9rem;
-    }
-
-    .ecolo {
-
-        margin-left: -7%;
-    }
-
-    .ecolo p {
-        font-size: 0.9rem;
-        padding-top: 15%;
-    } */
-
-    /* .item-ecolo {
-        height: 64vw;
-    }
-
-    .cont-img-eco1 img {
-        margin-top: 14%;
-    }
-
-    .cont-img-eco .trois {
-        margin-top: 12%;
-
-    } */
-
-    /*********** contact ****************/
-
-    /* #conta {
-        height: 75vw;
-    }
-
-    .container-form {
-
-        margin-left: 5%;
-    }
-
-    iframe {
-        margin-left: -10%;
-    }
-
-    /* .btn-end {
-        margin-top: -5%;
-        margin-left: -2%;
-        width: 4%;
-        height: 5%;
-    } */
-
-
-
-    /* .form-groupe1 {
-        margin-top: 4%;
-        margin-left: 30%;
-
-    } */ 
-
-
-
-
-/* @media screen and (max-with:500px) { */
-
-/*     
-    .blocs-menu a{
-        font-size: 9px;
-        text-align: center;
-    }
-    .cercle-logo img{
-        width: 190%;
-        height:70%;
-       
-    }
-    .nav-gauche {
-
-        
-
-    }
-
-    /* ********accueil ************ */
-
-    /* .accueil h1 {
-
-        font-size: 2rem;
-        margin-top: -1%;
-        margin-left: -15%;
-    }
-
-    .btn-rond {
-        width: 3%;
-        height: 2.5%;
-        margin-left: -2%;
-        margin-top: -60%;
-    } */
-
-    /* .accueil p {
-        font-size: 1.5rem;
-        margin-top: -2%;
-    }
-
-    .logoCbl {
-        top: 31%;
-        left: 77%
-    } */
-
-    /************ presentation ************ */
-    /* .titre-pres {
-        font-size: 2rem;
-        margin-left: 1%;
-
-    }
-
-    .container-pres {
-        font-size: 0.6rem;
-        margin-left: -6%;
-    }
- */
-
-
-    /********* section transport ***********/
-
-    /* .titre-port {
-
-        font-size: 2.5em;
-        margin-left: 4%;
-        margin-top: 15%;
-    }
-
-    .titre2port { */
-
-        /* font-size: 1.2em;
-        margin-left: 1%;
-    } */
-
-    /* .cont-transport {
-
-        margin-left: -15%;
-    } */
-    /* .carousel {
-        border-radius: 10%;
-        margin-left: 2.5%;
-        margin-top: 3%;
-        height: 50%;
-        width: 95%;
-    } */
-
-    /* .carousel img {
-
-        margin-top: 35%;
-        margin-left: 12%;
-    }
-
-    .carousel .photo {
-        margin-top: 28%;
-
-    }
-
-    .carousel .photo1 {
-        margin-top: 42%;
-    }
-
-    .item {
-        height: 45vw;
-        width: 50%;
-    }
-
-    .cam {
-
-        margin-top: -6%;
-
-    }
-
-    .cam3 {
-        margin-top: -3%;
-    }
-
-    .item h3 {
-        margin-top: 11%;
-    } */
-
-    /* ************** Stocages ********************* */
-
-    /* #exp h2 {
-
-        font-size: 2rem;
-        margin-left: -13%;
-    }
-
-    .bloc {
-
-        width: 60%;
-    }
-
-    .flex-cont-bloc-exp {
-
-        margin-left: 4%;
-        height: 220vw;
-
-    }
-
-    .contenu-bloc {
-        height: 40vw;
-    } */
-
-    /* ************ eco *****************/
-
-
-    /* .titre-para1 {
-
-        /* margin-left: -30%; */
-
-    /* }
-
-    .engage .eng {
-        font-size: 1.2rem;
-    }
-
-    .ecolo {
-        height: 300vw;
-        margin-left: -7%;
-    }
-
-    .ecolo p {
-        font-size: 0.9rem;
-        padding-top: 15%;
-    }
-
-    .item-ecolo {
-        width: 47%;
-        height: 96vw;
-    } */
-
-    /* .cont-img-eco1 img {
-        margin-top: 14%;
-    }
-
-    .cont-img-eco .trois {
-        margin-top: 12%;
-
-    } */
-
-    /*********** contact ****************/
-
-    /* #conta {
-        height: 210vw;
-    }
-
-    .container-form {
-        width: 50%;
-        margin-left: -18%;
-    }
-
-    iframe {
-        height: 80vw;
-        margin-left: -22%;
     }
 
     .btn-end {
-        margin-top: -10%;
-        margin-left: -2%;
-        width: 5%;
-        height: 5%;
-    } */
+        width: 2vw;
+        height: 2.5vh;
+        margin-top: 2%;
 
-    /* .btn-end img {
-        width: 1em;
-
-
-    }
-
-    .form-groupe1 .button-sub {
-        width: 30%;
-        height: 5vw;
-        margin-left: 33%;
-        padding: 2%;
-        font-size: 0.7em;
     }
 
 }
 
-@media screen and (max-width: 320px) {
+    @media screen and (max-width: 1100px) {
 
-    .blocs-menu a{
 
-        font-size: 9px;
-        text-align: center;
-    } */
-    /* .cercle-logo img{
-        width: 90%;
-        height:70%;
-       
+        .logoCbl {
+            left: 78%;
+            top: 21%
+        }
+
+        .accueil h1 {
+            top: 20%;
+            left: 25%;
+        }
+
+        .txt-animation {
+            top: 26%;
+            left: 22%;
+        }
+
+        .btn-rond {
+            margin-top: -12%;
+            margin-left: -5%;
+        }
+
+        /* ........section presentation...... */
+
+
+        .histoire {
+            margin-top: -133%;
+        }
+
+        /* **********transport******* */
+
+        .carousel {
+
+            height: 22vh;
+        }
+
+        .carousel .photo {
+            margin-top: 41%;
+            height: 24vh;
+        }
+
+        .carousel .photo2 {
+            margin-top: 42%;
+        }
+
+        .carousel .photo1 {
+            margin-top: 42%;
+        }
+
+        /* ************** Stocages ********************* */
+
+        .titre-stockage-exp {
+            margin-left: -11%;
+        }
+
+        #exp {
+
+            height: 93vh;
+
+        }
+
+
+        /* ***********écologie*********** */
+
+
+        .eco {
+            background-size: 323%;
+            background-position-y: 81%;
+
+        }
+
+        .eco p {
+            padding-top: 18%;
+            font-size: 1.6vw;
+
+        }
     }
 
-    .nav-gauche {
-       
-        width: 30%;
+        @media all and (max-device-width: 425px) {
 
-    }
-    /* ********accueil ************ */
 
-    /* .accueil h1 {
+            .nav-gauche {
 
-        font-size: 1rem;
-        margin-top: -1%;
-        margin-left: -15%;
-    }
+                width: 20%;
 
-    .vide { */
-        /* margin-bottom: 800px;
-    }
+            }
 
+            .cercle-logo img {
 
-    .btn-rond {
-        width: 3%;
-        height: 2%;
-        left: 15%;
-        top: 20%;
+                width: 70%;
+            }
 
-    } */ 
+            .cercle-logo {
 
-    /* .btn-rond img {
-        width: 0.5em;
-    }
+                left: 1%;
+            }
 
-    .accueil p {
-        font-size: 1rem;
-        margin-top: -2%;
-    }
+            .btn-rond-menu {
 
-    .logoCbl {
-        top: 31%;
-        left: 72%
-    }
+                margin-top: 2%;
+                margin-left: 2%;
+                width: 5%;
+                height: 3vh;
+            }
 
-    /************ presentation ************ */
-    /* .titre-pres {
-        font-size: 1.5rem;
-        margin-left: 1%;
+            .ligne-unique::before {
 
-    }
+                bottom: 180%;
+            }
 
-    .container-pres {
-        font-size: 0.4rem;
-        margin-left: -4%;
-    }
+            .ligne-unique::after {
 
-    .section-parallax {
-        margin-top: 3%;
-        background-size: 100% auto;
-        background-position-x: 0.1em;
-    } */
+                top: 180%;
+            }
 
-    /********* section transport ***********/
+            .blocs-menu span {
 
-    /* .titre-port {
+                font-size: 2vw;
+                left: 1%;
+                margin-top: -10%;
+                font-weight: 700;
 
-        font-size: 1.5em;
-        margin-left: 5%;
-    }
+            }
 
-    .titre2port {
+            .accueil h1 {
 
-        font-size: 1.2em;
-        margin-left: 1%;
-    }
+                font-size: 5.4vw;
+                top: 5%;
+                left: 25%;
+            }
 
-    /* .cont-transport {
+            .txt-animation {
+                top: 9%;
+                left: 24%;
+            }
 
-        margin-left: -25%;
-    } */
+            .logoCbl {
+                left: 73%;
+                top: 6%
+            }
 
-    /* .cont-img-port {
-        height: 50%;
+            .btn-rond {
+                display: none;
 
-    }
+            }
 
-    .item {
-        height: 85vw;
-        width: 100%;
-    } */
+            /***************** presentation ****************/
 
-    /* .cam3 { */
-        /* margin-top: -3%;
-    /* } */
+            .presentation {
+                background-size: 120%;
+                background-position-y: -1%;
 
-    /* .item h3 {
-        margin-top: -2%;
-    } */ 
+            }
 
-    /* ************** Stocages ********************* */
-    /* .section-parallax1 {
+            .histoire {
+                margin-top: -425%;
 
-        height: 90vw;
-    } */
+            }
 
-    /* #exp h2 {
+            .titre-pres {
 
-        font-size: 1.5rem;
-        margin-left: -18%;
-    }
+                margin-left: -2%;
 
-    .bloc {
-        font-size: 0.5rem;
-        width: 80%;
-    } */ 
+            }
 
-/* 
-    .flex-cont-bloc-exp {
+            /********* section transport ***********/
 
-        margin-left: 4%;
-        height: 220vw;
+            .titre2port {
+                font-size: 3vw;
+                margin-left: -2%;
+            }
 
-    }
+            .carousel {
 
-    .contenu-bloc {
-        height: 37vw;
-    } */
+                height: 10vh;
 
-    /* ************ eco *****************/
+            }
 
+            .carousel .photo {
 
-    /* .titre-para1 {
-        font-size: 1.5rem;
-        margin-left: -30%;
+                margin-top: 165%;
+                height: 8vh;
+            }
 
-    }
+            .carousel .photo2 {
+                margin-top: 160%;
 
-    .eco h3 {
 
+            }
 
-        font-size: 0.8rem;
-    }
+            .carousel .photo1 {
+                margin-top: 160%;
 
-    .engage .eng {
-        font-size: 0.8rem;
-        font-weight: 700;
-    }
+            }
 
-    .ecolo {
-        height: 300vw; */
-        /* margin-left: -9%;
-    }
+            .cam {
 
-    .ecolo p {
-        font-size: 0.4rem;
-        padding-top: 15%;
-    }
+                margin-top: 186%;
+            }
 
-    .item-ecolo {
-        width: 47%;
-        height: 96vw;
-    }
+            .item {
 
-    .cont-img-eco1 img {
-        margin-top: 14%;
-    }
+                height: 25vh;
+                font-size: 2.1vw;
 
-    .cont-img-eco .trois {
-        margin-top: 12%;
+            }
 
-    }
+            .item h3 {
+                text-align: center;
+                margin-top: -175%;
+            }
 
-    .section-parallax3 {
-        height: 80vw;
-    } */
 
-    /*********** contact ****************/
+            /* ************** Stocages ********************* */
 
-    /* #conta {
-        height: 10vh;
+            .titre-stockage-exp {
+                margin-left: -17%;
 
-    }
+            }
 
-    .container-form {
+            #exp {
+                height: 75vh;
+                font-size: 2vw;
 
-        margin-top: -52%;
-        padding-right: -29%;
+            }
 
-    }
+            .contenu-bloc {
 
-    .container-form {
-        width: 50%;
-        margin-left: -18%;
-    }
+                height: 25vh;
+            }
 
-    .coor {
-        margin-top: -50%;
-        margin-left: 2%;
-    }
+            .flex-cont-bloc-exp {
+                font-size: 3vw;
+                margin-left: 2%;
+                margin-top: -83%;
 
- */
+            }
 
-    /* .btn-end {
-        margin-top: -10%;
-        margin-left: -2%;
-        width: 6%;
-        height: 4%;
-    }
+            .titre-section-bloc {
+                text-align: center;
+                margin-top: 5%;
+            }
 
-    .btn-end img {
-        width: 0.5em;
+            /* ************ eco *****************/
 
-    }
+            .eco {
 
-    .form-groupe1 .button-sub {
-        width: 50%;
-        height: 8vw;
-        margin-left: 33%;
-        padding: 2%;
-        font-size: 0.7em;
-    }
+                height: 230vh;
+                background-size: 430%;
+                background-position-y: 2%;
 
+            }
+
+            .section-parallax2 {
+
+                width: 150%;
+                height: 30vh;
+                margin-left: -8%;
+
+            }
+
+            .titre-para1 {
+
+                padding-top: 4%;
+                padding-left: 15%;
+
+            }
+
+            .engage .eng {
+                margin-top: -7%;
+                font-size: 3vw;
+            }
+
+            .item-ecolo {
+                height: 40vh;
+            }
+
+            .ecolo {
+
+                margin-left: -8%;
+                height: 63vh;
+
+            }
+
+            .cont-img-eco .deux {
+
+                margin-top: -73%;
+            }
+
+            .ecolo p {
+                font-size: 1.9vw;
+                padding-top: 20%;
+            }
+
+            .par3 {
+
+                width: 100%;
+                height: 65vh;
+
+            }
+
+
+            /*********** contact ****************/
+
+            #conta {
+                height: 80vh;
+                margin-top: -28%;
+                background-size: 160%;
+                background-position-x: 1%;
+                -webkit-text-stroke: 2px rgb(55, 149, 160);
+            }
+
+            .coor {
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: black;
+                -webkit-text-stroke: 1px rgb(55, 149, 160);
+                font-size: 2vh;
+                margin-top: 20%;
+            }
+
+            .section-contact h2 {
+
+                color: black;
+                -webkit-text-stroke: 2px rgb(55, 149, 160);
+                width: 100%;
+                margin-top: 80%;
+                margin-left: 42%;
+                font-size: 2vh;
+            }
+
+            .form-bloc {
+
+                margin-left: 47%;
+            }
+
+            .form-groupe label {
+                color: black;
+                font-size: 2vh;
+
+            }
+
+            textarea {
+                width: 30vw;
+                height: 15vh;
+            }
+
+            .gmaps-frame {
+                margin-left: 20%;
+                width: 70%;
+                height: 30vh;
+            }
+
+            .btn-end {
+
+                height: 2.5vh;
+                margin-left: 6%;
+                margin-top: 5%;
+            }
+
+            footer {
+
+                text-align: center;
+                align-items: center;
+                padding-left: 2%;
+            }
+
+        }
+
+            @media all and (max-device-width: 320px) {
+
+
+                .nav-gauche {
+
+                    width: 25%;
+                    
+                }
+                
+                .cercle-logo img {
+                    
+                    width: 17vw;
+                }
+
+                .cercle-logo {
+
+                    left: 1%;
+                }
+
+                .btn-rond-menu {
+
+                    margin-top: 2%;
+                    margin-left: 2%;
+                    width: 8%;
+                    height: 3vh;
+                }
+
+                .ligne-unique::before {
+
+                    bottom: 180%;
+                }
+
+                .ligne-unique::after {
+
+                    top: 180%;
+                }
+
+                .blocs-menu span {
+
+                    font-size: 2.6vw;
+                    left: 1%;
+                    margin-top: -10%;
+                    font-weight: 700;
+
+                }
+
+                .accueil h1 {
+
+                    font-size: 5.4vw;
+                    top: 3.5%;
+                    left: 25%;
+                }
+
+                .txt-animation {
+                    top: 7%;
+                    left: 24%;
+                }
+
+                .logoCbl {
+                    left: 73%;
+                    top: 5%
+                }
+
+                .btn-rond {
+                    display: none;
+
+                }
+
+                /***************** presentation ****************/
+
+                .presentation {
+                    background-size: 150%;
+                    /* background-position-y: -1%; */
+
+                }
+                
+                .histoire {
+                    margin-top: -579%;
+                }
+                
+                .titre-pres {
+                    
+                    font-size: 3vw;
+                    margin-left: -2%;
+
+                }
+
+                /********* section transport ***********/
+
+                .titre2port {
+                    font-size: 3vw;
+                    margin-left: -2%;
+                }
+
+                .carousel {
+background: #000;
+                    height: 7vh;
+
+                }.carousel img{
+
+                    margin-left: 15%;
+                }
+
+                .carousel .photo {
+
+                    margin-top: 212%;
+                    height: 8vh;
+                }
+
+                .carousel .photo2 {
+                    margin-top: 220%;
+
+
+                }
+
+                .carousel .photo1 {
+                    margin-top: 218%;
+
+                }
+
+                .cam {
+
+                    margin-top: 186%;
+                }
+
+                .item {
+
+                    height: 17vh;
+                    font-size: 2.1vw;
+
+                }
+
+                .item h3 {
+                    text-align: center;
+                    margin-top: -255%;
+                }
+
+
+                /* ************** Stocages ********************* */
+
+                .titre-stockage-exp {
+                    margin-left: -17%;
+
+                }
+
+                #exp {
+                    height: 75vh;
+                    font-size: 2vw;
+
+                }.bloc{
+
+                    margin:  1%;
+                }
+
+                .contenu-bloc {
+                    height: 20vh;
+                }
+                
+                .flex-cont-bloc-exp {
+                    width: 210vw;
+                    font-size: 3vw;
+                    margin-left: 2%;
+                    /* margin-top: -83%; */
+                   
+
+                }
+
+                .titre-section-bloc {
+                    text-align: center;
+                    margin-top: 5%;
+                }
+
+                /* ************ eco *****************/
+
+                .eco {
+
+                    height: 230vh;
+                    background-size: 430%;
+                    background-position-y: 2%;
+
+                }
+
+                .section-parallax2 {
+
+                    width: 150%;
+                    height: 30vh;
+                    margin-left: -8%;
+
+                }
+
+                .titre-para1 {
+
+                    padding-top: 4%;
+                    padding-left: 15%;
+
+                }
+
+                .engage .eng {
+                    margin-top: -7%;
+                    font-size: 3vw;
+                }
+
+                .item-ecolo {
+                    height: 40vh;
+                }
+
+                .ecolo {
+
+                    margin-left: -8%;
+                    height: 63vh;
+
+                }
+
+                .cont-img-eco .deux {
+
+                    margin-top: -73%;
+                }
+
+                .ecolo p {
+                    font-size: 1.9vw;
+                    padding-top: 20%;
+                }
+
+                .par3 {
+
+                    width: 100%;
+                    height: 65vh;
+
+                }
+
+
+                /*********** contact ****************/
+
+                #conta {
+                    height: 80vh;
+                    margin-top: -28%;
+                    background-size: 160%;
+                    background-position-x: 1%;
+                    -webkit-text-stroke: 2px rgb(55, 149, 160);
+                }
+
+                .coor {
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: black;
+                    -webkit-text-stroke: 1px rgb(55, 149, 160);
+                    font-size: 2vh;
+                    margin-top: 20%;
+                }
+
+                .section-contact h2 {
+
+                    color: black;
+                    -webkit-text-stroke: 2px rgb(55, 149, 160);
+                    width: 100%;
+                    margin-top: 80%;
+                    margin-left: 42%;
+                    font-size: 2vh;
+                }
+
+                .form-bloc {
+
+                    margin-left: 47%;
+                }
+
+                .form-groupe label {
+                    color: black;
+                    font-size: 2vh;
+
+                }
+
+                textarea {
+                    width: 30vw;
+                    height: 15vh;
+                }
+
+                .gmaps-frame {
+                    margin-left: 20%;
+                    width: 70%;
+                    height: 30vh;
+                }
+
+                .btn-end {
+
+                    height: 2.5vh;
+                    margin-left: 6%;
+                    margin-top: 5%;
+                }
+
+                footer {
+
+                    text-align: center;
+                    align-items: center;
+                    padding-left: 2%;
+                }
+            }

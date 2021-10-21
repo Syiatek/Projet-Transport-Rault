@@ -20,7 +20,8 @@ body {
     overflow-x: hidden;
     font-family: "Abril Fatface", sans-serif;
     background: url(ressources/iconRault-10.png);
-    background-position-x: -10em;
+    background-position-x: -16em;
+    
 }
 
 @keyframes scroll {
@@ -130,16 +131,21 @@ label:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+main{
+    overflow-x: hidden;
+    margin-right: -2.2%;
+}
 /* ............accueil......... */
 
 .accueil {
 
     position: relative;
-
+    width: 100%;
+    height: 250vh;
 }
 
 .accueil h1 {
+    
     font-size: 6vw;
     position: absolute;
     text-shadow: 0.1em 0.1em #f1f1f1;
@@ -160,14 +166,9 @@ label:hover {
     left: 29%;
     color: rgb(238, 245, 240)
 }
-.accueil{
-
-    width: 100%;
-    height: 250vh;
-}
 
 .vide{
-
+    
     width: 100%;
 }
 
@@ -309,27 +310,31 @@ label:hover {
 }
 
 
-.carousel img {
+ .photo2  {
     margin-top: 17%;
+    object-fit: scale-down;
+} 
+ .carousel img  {
+    
     border-radius: 10%;
-    margin-left: 0%;
-
-}
+   
+} 
 
 .carousel {
     border-radius: 10%;
     margin-left: 2.5%;
     margin-top: 3%;
-    height: 50%;
-    width: 95%;
+    height: 30vh;
+    width: 24vw;
 }
 
 .carousel .photo {
-    margin-top: 27%;
-    height: 50%;
+    margin-top: 31%;
+    height: 30vh;
 }
 
 .carousel .photo1 {
+    object-fit: scale-down;
     margin-top: 22%;
 
 }
@@ -365,7 +370,7 @@ label:hover {
 .cont-img-port {
     width: 100%;
     height: 35vh;
-    max-height: 40vh;
+    max-height: 35vh;
     overflow: hidden;
     border-radius: 5%;
 
@@ -480,7 +485,7 @@ label:hover {
 .contenu-bloc {
 
     width: 100%;
-    height: 19vw;
+    height: 39vh;
     border-radius: 6% 14.6% 5% 5%;
     overflow: hidden;
     background: rgb(248, 240, 166);
@@ -494,7 +499,7 @@ label:hover {
     width: 80%;
     height: 50%;
     margin-left: 9%;
-
+    object-fit: scale-down;
 }
 
 .txt-section {
@@ -644,6 +649,7 @@ label:hover {
 
 .cont-img-eco1 img {
 
+    object-fit: scale-down;
     position: absolute;
     width: 100%;
     top: 56%;
@@ -875,7 +881,7 @@ textarea:focus {
 
     background: -webkit-radial-gradient(rgb(55, 149, 160)50%, rgb(175, 233, 134));
     width: 2.5%;
-    height: 4.5%;
+    height: 5vh;
     position: absolute;
     border-radius: 50%;
     display: flex;

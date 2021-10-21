@@ -26,185 +26,195 @@
 }
 
 .cont-ligne {
-    width: 70%;
-    height: 1vh;
+    width: 50%;
+    height: 0.3vh;
 }
 
 .blocs-menu span {
 
-    /* font-size: 75%; */
+    font-size: 1.4vw;
     left: 1%;
-margin-top: -10%;
+    margin-top: -10%;
     font-weight: 700;
 
 }
 
-/* .accueil h1 {
+.accueil h1 {
 
-    /* font-size: 270%; */
-    /* top: 12%;
-    left: 25%; */
-} */
-
-.txt-animation {
-
-    /* font-size: 150%; */
-    top: 21%;
+    font-size: 5.4vw;
+    top: 12%;
     left: 25%;
 }
 
-/* .vide {
-    margin-top: -128%;
-} */
+.txt-animation {
+    top: 17%;
+    left: 24%;
+} 
+.logoCbl {
+    left: 78%;
+    top: 13%
+} 
 
-/* .logoCbl {
-    left: 71%;
-    top: 15%
-} */
+    .btn-rond {
+        margin-top: -110%;
+        margin-left: -4%;
+    }
 
-.btn-rond {
-    margin-top: -110%;
-    margin-left: -4%;
-}
+    /***************** presentation ****************/
 
-/***************** presentation ****************/
+    .presentation{
+        background-size:110% ;
+      
+    }
 
-.histoire {
-    /* margin-top: -132%;
-    font-size: 80%; */
-}
-
-/********* section transport ***********/
-
-.titre2port {
-
-    /* font-size: 120%; */
-}
-
-.carousel img {
-
-    /* margin-top: 55%; */
-    /* margin-left: 42%; */
-}
-
-.carousel .photo1 {
-    margin-top: 55%;
-}
-
-/* ************** Stocages ********************* */
-
-.titre-stockage-exp {
-    margin-left: -11%;
-}
-
-.flex-cont-bloc-exp {
-
-    margin-left: 3%;
+    .histoire {
+        margin-top: -215%;
     
-}
+    }
+    .titre-pres {
 
-#exp h2 {
+        margin-left: -2%;
+    
+    }
 
-    margin-left: -16%;
+    /********* section transport ***********/
 
-}
+    .titre2port {
 
-.contenu-bloc {
+        margin-left: -2%;
+    }
+    .carousel {
+
+        height: 13vh;
    
-    height: 25vh;
-}
+    } .carousel .photo {
 
-/* ************ eco *****************/
+        margin-top: 68%;
+        margin-left: 19%;
+        height: 15vh;
+    }
+    .carousel .photo2 {
+        
+        margin-top: 68%;
+        margin-left: 19%;
+   
+    }
+   
+    .carousel .photo1 {
+        margin-top: 68%;
+        margin-left: 19%;
+   
+    }
+    .cam {
+    
+        margin-top: 100%;
+    }
+    .item {
+       
+        height: 35vh;
+    
+    }
+    .item h3 {
+        text-align: center;
+        margin-top: -83%;
+        font-size: 2vw;
+    }
+    
+
+    /* ************** Stocages ********************* */
+
+    .titre-stockage-exp {
+        margin-left: -16%;
+    }
+
+    #exp {
+   
+        height: 80vh;
+        margin-top: 162;
+    
+    }
+    .contenu-bloc {
+    
+        height: 25vh;
+    }
+    .flex-cont-bloc-exp {
+    
+        margin-top: -73%;
+    
+    }
+
+    /* ************ eco *****************/
+
+    .eco {
+        height: 280vh;
+        background-size: 380%;
+        background-position-y: 5%;
+        
+    }
+
 .section-parallax2 {
 
     width: 150%;
     height: 30vh;
     margin-left: -8%;
-    margin-top: 30%;
+    
 }
 
 .titre-para1 {
 
     padding-top: 4%;
+    padding-left: 15%;
 
 }
-
-.eco{
-    /* background-size:205% ;
-    background-position-y:31%; */
-
-}
-
 .engage .eng {
-
     margin-top: -3%;
-    margin-left: -8%;
-}
-
-
-.engage .colza {
-
-    margin-left: 22%;
-}
-
-.ecolo {
-
-    margin-left: -9%;
-
+   font-size: 3vw;
 }
 
 .item-ecolo {
-    height: 58%;
+    height: 58vh;
 }
+.ecolo {
 
+    margin-left: -8%;
+    height: 93vh;
+
+}
 .ecolo p {
-    /* font-size: 1rem; */
-    padding-top: 11%;
-}
-.cont-img-eco .trois {
-margin-left: 3%;}
-
-/* .section-parallax3 {
-    margin-top: -30%; */
-
-/* } */
-/* .par3 {
-    background-position-x:  -0.5rem;
-} */
-
-/*********** contact ****************/
-
-#conta {
-    /* margin-top: -20%;
-    height: 70vh;
-    margin-left: 1%; */
+    font-size: 1.8vw;
+    padding-top: 25%;
 }
 
+    /*********** contact ****************/
 
-.gmaps-frame {
-width: 70%;
-    height: 30vh;
-}
-
-.btn-end {
-height: 2vh;
-    margin-left: -4%;
-    margin-top: -3%;
-}
-
-.form-groupe1 {
-    margin-left: 55%;
-}
-textarea {
-
-height: 20vh;
-
-}
- 
-
-footer {
+    #conta {
     
-    text-align: center;
-    align-items: center;
-    padding-left: 2%;
-}
+        height: 103vh;
+        
+    }
+    .coor {
+        font-size: 2.7vh;
+    }
+    .section-contact h2 {
+        font-size: 2.7vh;
+    }
+    
+    .form-groupe label {
+        font-size: 2vh;
+    
+    }
+
+    .btn-end {
+
+        height: 2.5vh;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    footer {
+    
+        text-align: center;
+        align-items: center;
+        padding-left: 2%;
+    }
+    

@@ -1,11 +1,6 @@
 
-section{
-
-    width: 100%;
-}
+ 
 /* ********accueil********* */
-
-
 
 
 .accueil h1 {
@@ -26,7 +21,21 @@ section{
 /* ........section presentation...... */
 
 .histoire {
-    margin-top: -95%;
+    margin-top: -86%;
+}
+
+/* transport */
+
+
+.carousel .photo {
+    margin-top: 22%;
+
+   
+}
+
+.carousel .photo1 {
+    margin-top: 17%;
+
 }
 
 /* ***********écologie*********** */
@@ -39,7 +48,7 @@ section{
 
 .eco p {
     padding-top: 11%;
-   font-size: 1.2vw; 
+   font-size: 1.4vw; 
 }
 
 
